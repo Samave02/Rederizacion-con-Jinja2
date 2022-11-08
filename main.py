@@ -8,7 +8,7 @@ i = 1
 # Lista que almacenara cada paquete de objetos de cada una de las paginas
 listaDatos = []
 # recorrido sobre las 34 paginas 
-while i < 35:
+while i <= res['last_page']:
     i += 1
     # de las claves principales de json se ingresa a links con la finalidad de tierar sobre las paginas que pueden tener información
     links = res['links']
